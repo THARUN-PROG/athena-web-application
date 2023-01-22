@@ -12,7 +12,7 @@ function App() {
                     <div class="logo">
                         <img src="./images/kula_ai.png" alt='Logo' />
                     </div>
-                    <li><a href="#product">Product</a></li>
+                    <li><a href="#product" id='app'>Product</a></li>
                     <li><a href="#Our Story">Our Story</a></li>
                     <li><a href="#Resources">Resources</a></li>
                 </ul>
@@ -22,7 +22,7 @@ function App() {
             </nav>
 
             <div class='container'>
-                <section class="section" id="top">
+                <  section class="section" id="top">
                     <div class="box-main">
                         <div class="firstHalf">
                             <h1 class="text-big" id='top-body'>
@@ -39,11 +39,13 @@ function App() {
                 </section>
             </div>
 
+
             <div class="container">
                 <div class="con_left">
                     <section class="section">
                         <div class="box-main">
                             <div class="secondHalf">
+                                <h3 class="text-fancy">Kula Outreach</h3>
                                 <h1 class="text-big" id="program">
                                     Automated Candidate Follow-ups
                                 </h1>
@@ -68,6 +70,7 @@ function App() {
                     <section class="section">
                         <div class="box-main">
                             <div class="secondHalf">
+                                <h3 class="text-fancy">Kula Outreach</h3>
                                 <h1 class="text-big" id="program">
                                     Personalized Candidate Reach Outs
                                 </h1>
@@ -79,12 +82,11 @@ function App() {
                         </div>
                     </section>
                 </div>
-
-                <div class="con_right">
-                    <section class="section">
-                        <img class="image" src={gif2} alt="gif1"></img>
-                    </section>
-                </div>
+                    <div class="con_right">
+                        <section class="section">
+                            <img class="image" src={gif2} alt="gif2"></img>
+                        </section>
+                    </div>
             </div>
 
             <div class="container">
@@ -92,6 +94,8 @@ function App() {
                     <section class="section">
                         <div class="box-main">
                             <div class="secondHalf">
+                                <h3 class="text-fancy">Kula Outreach</h3>
+
                                 <h1 class="text-big" id="program" >
                                     Reach out on channels candidate prefer
                                 </h1>
@@ -105,18 +109,21 @@ function App() {
 
                 <div class="con_right">
                     <section class="section">
-                        <img class="image" src={gif3} alt="gif1"></img>
+                        <img class="image" src={gif3} alt="gif3"></img>
                     </section>
                 </div>
             </div>
 
             <footer className="footer">
                 <p className="text-footer">
-                    Made by @THARUN S
+                    Replicated and Published by @THARUN S
                 </p>
             </footer>
         </div>
+
+
     )
 }
 
 export default App
+
